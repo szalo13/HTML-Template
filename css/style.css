@@ -1,18 +1,24 @@
 html, body {
     min-width: 100vw;
     min-height: 100vh;
+    color: black;
+    font-size: 15px;
+    background-color: darkgrey;
 }
 li, ul, ol {
     list-style-type: none;
 }
 .hero {
-    background-image: url(../img/yungas.jpg);
-    background-position: center;
     position: relative;
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    color: #EEEEEE;
+}
+.box-abs-cen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 @media (min-width: 768px){
     
